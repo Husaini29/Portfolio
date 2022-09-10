@@ -43,54 +43,39 @@ body{
     font-weight: bold;
 }
 
-.head{
-    padding-top: 3rem;
-    height: 435px;
-    background-color: #fecdd3;
-    width: 90%;
-    margin: 1rem auto;
-    border-radius: 1rem;
+#heading{
+    margin-left: 42%;
 }
-.head .dev-img{
-    display: block;
-    margin: auto;
-    width: 370px;
-}
-
-.align-center{
+.container{
+    width: 60%;
     text-align: center;
-}
-.highlight{
-    color: var(--primary-color);
-    font-size: 2rem;
-}
-
-.tech-section{
-    background-color: #fb7185;
-    width: 90%;
-    margin: 1rem auto;
-    border-radius: 1rem;
-    padding-bottom: 1rem;
+    margin-left: 20%;
+    border-radius: 10px;
+    margin-top:4rem;
+    box-shadow: 10px 8px 7px 8px #947075;
+    height: 240px;
+    padding-top: 0.5rem;
 }
 
-.project-section{
-    background-color: #fecdd3;
-    width: 90%;
-    margin: 1rem auto;
-    border-radius: 1rem;
-    padding-bottom: 2rem;
+.big{
+    height: 330px;
 }
-.project-img{
-    height: 325px;
+.background-light{
+    background-color: var(--secondary-color);
 }
-
-.link-primary{
+.background-dark{
     background-color: var(--primary-color);
-    color: #fff;
-    border-radius: 1rem;
-    padding: 0.5rem;
 }
 
+.container > a{
+    margin-top: 0.5rem;
+}
+.small{
+    font-size: small;
+}
+.blog-para{
+    margin-bottom: 2rem;
+}
 .link-secondary{
     margin: 1rem;
     padding: 0.6rem 1.2rem;
@@ -100,18 +85,12 @@ body{
     background-color: #e11d48;
 }
 
-.blog-section{
-    background-color: #fb7185;
-    width: 90%;
-    margin: 1rem auto;
-    border-radius: 1rem;
-    padding-bottom: 2rem;
-}
-
 footer{
     height: 6rem;
+    margin-top: 3rem;
     background-color: var(--secondary-color);
 }
+
 footer > ul >li >a {
     text-decoration: none;
     color: black;
